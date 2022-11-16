@@ -1,0 +1,17 @@
+{
+  "name": "binding-strategies",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "npm run run:call-by-reference && npm run run:call-by-value",
+    "run:call-by-reference": "ts-node-esm call-by-reference.ts",
+    "run:call-by-value": "zig run call-by-value.zig"
+  },
+  "author": "Ronald Chen <pyrogx1133@gmail.com>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "prettier": "2.7.1",
+    "ts-node": "10.9.1",
+    "typescript": "4.9.3"
+  }
+}
