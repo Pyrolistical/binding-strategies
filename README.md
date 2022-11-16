@@ -2,6 +2,8 @@
 
 Demo showing the difference of call by reference in Typescript vs call by value in Zig
 
+![diff](diff.png)
+
 ### Setup
 
 1. Download [`zig 0.10.0`](https://ziglang.org/download/)

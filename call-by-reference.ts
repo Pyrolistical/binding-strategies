@@ -1,9 +1,13 @@
-type Bar = { value: number };
+type Bar = {
+    value: number;
+};
 
-type Foo = { bar: Bar };
+type Foo = {
+    bar: Bar;
+};
 
 function add(foo: Foo, b: number): number {
-	return foo.bar.value + b;
+    return foo.bar.value + b;
 }
 
 const bar: Bar = { value: 1 };

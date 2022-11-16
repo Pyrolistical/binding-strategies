@@ -1,0 +1,19 @@
+type Bar = {
+  value: number
+}
+
+type Foo = {
+  bar: Bar
+}
+
+function add(foo: Foo, b: number) number {
+  return foo.bar.value + b
+}
+
+let bar = Bar(value = 1)
+let foo = Foo(bar = bar)
+bar.value = 2
+
+let result = add(foo, 3)
+
+print(result)
